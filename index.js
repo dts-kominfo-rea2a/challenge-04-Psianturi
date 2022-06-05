@@ -10,8 +10,7 @@ const dates = [
 // TODO: Buatlah fungsi createDate
 //const createDate = null;
 const createDate = (dates, index) => {
-  const date = new Date(dates[index]);
-  let dateResult = [];
+    let dateResult = [];
   if (index == null) {
     for (counter = 0; counter < dates.length; counter++) {
       dateResult.push(Date.parse(dates[counter]).toString() / 1000);
